@@ -1,0 +1,88 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+header{
+  text-align: center;
+  background-color:violet;
+  padding:.5cm;
+  border:solid black;
+  border-style: dotted;
+  border-radius: 10px;
+  margin-bottom: 1cm;
+}
+footer{
+  text-align: center;
+  margin-top: 4cm;
+  background-color:violet;
+  padding:.3cm;
+  border:solid black;
+  border-style: dotted;
+  border-radius: 10px;
+}
+button{
+  background-color: violet;
+  padding: 10px;
+  border-radius: 10px;
+  margin: .5cm;
+  
+}
+input{
+  padding: 2px;
+  border: solid violet;
+  margin: 3px;
+}
+a{
+  text-decoration: none;
+  color: whitesmoke;
+  padding: 5px;
+  pointer-events:  ;
+  
+  
+}
+/*- page1(index page)-------------------------------------------------*/
+#div-index{
+  margin-left:42%;
+  padding-top:20px;
+ 
+  
+}
+
+/*--page2-----------------------------------------------------------------------*/
+form{
+  text-align: center;
+  margin-bottom: .7cm;
+  padding:20px;
+  margin: auto;
+  display: block;
+  width: 60%;
+}
+#pg2-btn-txt{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   
+}
+#bttn2{
+  background-color: violet;
+  padding: 10px;
+  border-radius: 10px;
+  margin: .5cm;
+  
+}
+.qstn-container{
+ padding: .5cm;
+}
+  
+/*page3----------------------------------------------------------------*/
+#pg3-div{
+  margin-top:4%;
+  margin-left:40%;
+  
+  
+}
+/*page4----------------------------------------------------------------*/
+#pg4-div{
+  margin-top:4%;
+  margin-left:45%;
+  

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header>
+    <h1>Triangle Quiz</h1>
+    <nav>
+      <a href="index.html">Page1</a>
+      <a href="page3.html">Page3</a>
+      <a href="page4.html">Page4</a>
+    </nav>
+  </header>
+  <form class="form-container">
+    <div class="qstn-container">
+      <p>1. What is the third angle for the triangle where angle1=45.angle2=45?</p>
+      <label><input type="radio" name="question-1" value="45">45</label>
+      <label><input type="radio" name="question-1" value="60">60</label>
+      <label><input type="radio" name="question-1" value="90">90</label>
+    </div>
+    <div class="qstn-container">
+      <p>2. If triangle has an angle of 90 degrees,then what is it called?</p>
+      <label><input type="radio" name="question-2" value="acute">acute</label>
+      <label><input type="radio" name="question-2" value="obtuse">obtuse</label>
+      <label><input type="radio" name="question-2" value="right angled">right angled</label>
+    </div>
+    <div class="qstn-container">
+      <p>3. A triangle can have</p>
+      <label><input type="radio" name="question-3" value="one right angle45">one right angle</label>
+      <label><input type="radio" name="question-3" value="two right angles">two right angles</label>
+
+    </div>
+    <div class="qstn-container">
+      <p>4. Which of the following can form a right angled triangle?</p>
+      <label><input type="radio" name="question-4" value="14, 15, 26">14, 15, 26</label>
+      <label><input type="radio" name="question-4" value="12, 16, 20">12, 16, 20</label>
+
+    </div>
+    <div class="qstn-container">
+      <p>5. Which of the following triangles are always similar?</p>
+      <label><input type="radio" name="question-5" value="Equilateral triangle">Equilateral triangle</label>
+      <label><input type="radio" name="question-5" value="Isosceles triangle">Isosceles triangle</label>
+
+    </div>
+    <div class="qstn-container">
+      <p>6. If one angle of a triangle is obtuse, then which one of the following is the possible measure of remaining
+        angles? </p>
+      <label><input type="radio" name="question-6" value="100°">100°</label>
+      <label><input type="radio" name="question-6" value="85°">85°</label>
+
+    </div>
+    <div class="qstn-container">
+      <p>7. If the largest angle in a triangle is 70°, what is the least possible value of the smallest angle of the
+        triangle? </p>
+      <label><input type="radio" name="question-7" value="30°">30°</label>
+      <label><input type="radio" name="question-7" value="10°">10°</label>
+
+    </div>
+    <div class="qstn-container">
+      <p>8. The perimeter of scalene triangle with sides a, b, c is</p>
+      <label><input type="radio" name="question-8" value="a + b + c">a + b + c</label>
+      <label><input type="radio" name="question-8" value="2a">2a</label>
+      <label><input type="radio" name="question-8" value="none of these">none of these</label>
+    </div>
+    <div class="qstn-container">
+      <p>9. A scalene triangle has ___ lines of symmetry</p>
+      <label><input type="radio" name="question-9" value="two">two</label>
+      <label><input type="radio" name="question-9" value="no">no</label>
+      <label><input type="radio" name="question-9" value="15">15</label>
+    </div>
+    <div class="qstn-container">
+      <p>10.There is a right triangle PQR where: angle Q = 90°; angle P = angle R. What is the measure of angles P and
+        R? </p>
+      <label><input type="radio" name="question-10" value=" 85°"> 85°</label>
+      <label><input type="radio" name="question-10" value="65°">65°</label>
+      <label><input type="radio" name="question-10" value="45°">45°</label>
+    </div>
+
+
+  </form>
+  <div id="pg2-btn-txt">
+    <button id="bttn2">Submit Answer</button> <br />
+    <div id="output"></div>
+  </div>
+  <footer>
+    <h2>About:-</h2>
+    <p>This is a simple quiz to test your knowledge about triangles.</p>
+  </footer>
+
+  <script src="page2.js"></script>
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+</body>
+
+</html>
