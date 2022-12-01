@@ -8,12 +8,18 @@ function sumOf3Angels(angle1, angle2, angle3) {
 }
 function isTriangleChecker() {
   var sumofAngels = sumOf3Angels(Number(input[0].value), Number(input[1].value), Number(input[2].value));
-  if (sumofAngels === 180) {
-    output.innerHTML = "Yuppy it's a triangle!!";
+  if ((Number(input[0].value) !== 0 && Number(input[1].value) !== 0 )||
+     (Number(input[1].value) !== 0 && Number(input[2].value) !== 0 )||
+    ( Number(input[2].value) !== 0 && Number(input[0].value) !== 0) ) {
+    if (sumofAngels === 180) {
+      output.innerHTML = "Yuppy it's a triangle!!";
+    } else {
+      output.innerHTML = "Sorry it's not a triangle!!!";
+    }
   } else {
-    output.innerHTML = "Sorry it's not a triangle!!!";
+    output.innerHTML = "invalid"
   }
 
 }
 
-bttnHandler.addEventListener("click", isTriangleChecker)
+bttnHandler.addEventListener("click",isTriangleChecker)
